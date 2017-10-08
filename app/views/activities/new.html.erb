@@ -1,0 +1,13 @@
+<%= form_for @activity do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :type %>
+  <%= f.text_field :type %>
+
+  <%= f.label :budget %>
+  <%= f.text_field :budget %>
+
+  <%= f.submit "Add Date Activity" %>
+
+<% end %>
